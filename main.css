@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(252, 232, 252);
+}
+
+.img-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.title-position{
+    margin-top: 6%;
+}
+
+.title-home {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.link-title-reponsive {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+a, li{ 
+    color: black;
+}
+
+.menu-desplegable {
+    visibility: hidden;
+}
+
+.nav-link{
+    color: black;
+}
+
+.offcanvas-body {
+    background-color: rgb(255, 241, 255);
+}
+
+.nav-main {
+    /* background-color: violet; */
+    display: flex;
+    justify-content: end;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    margin-top: 1.5%;
+}
+
+.offcanvas-body {
+    position: relative;
+}
+
+.offcanvas-body .nav-link-menu-responsive {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link-menu-responsive {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.img-menu-responcive {
+    width: 340px;
+    height: 340px;
+    margin-top: 15%;
+}
+
+
+/* =============== SOCIAL-MEDIA ============== */
+.bi-twitter {
+    color: rgb(69, 69, 248);
+}
+.bi-youtube {
+    color: rgb(238, 66, 66);
+}
+.bi-instagram {
+    color: rgb(168, 77, 92);
+}
+
+.social-media i {
+    font-size: 20px;
+    /* margin: 1px 1px 1px 1px; */
+}
+
+.social-media {
+    position: absolute;
+    top: 93%;
+    left: 63%;
+}
+
+/* =============== MAIN ============== */
+
+
+/* =============== MEDIA-RESPONCIVE ============== */
+@media screen and (max-width:990px) {
+    .menu-desplegable {
+        visibility: visible;
+    }
+}
